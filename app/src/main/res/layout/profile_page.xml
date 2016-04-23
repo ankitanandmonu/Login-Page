@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Hello Ankit!"
+        android:id="@+id/textView"
+        android:layout_weight="0.08"
+        android:layout_gravity="bottom|left|right|top"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColor="#660000"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:width="10dp" />
+
+    <ImageView
+        android:layout_width="252dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/pic" />
+
+    <TextView
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Your Info:"
+        android:textColor="#40ff00"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.09" />
+
+    <TextView
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#0d0000"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:text="Email-id: ankitmonu321@gmail.com"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:id="@+id/editText" />
+
+    <TextView
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:text="Mobile: 9006389601"
+        android:ems="10"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:layout_gravity="center"
+        android:textColor="#0d0000"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/editText2" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Thank You"
+        android:id="@+id/button"
+        android:textStyle="bold|italic"
+        android:textSize="25dp"
+        android:background="#7f00ff"
+        android:textColor="#ffffffff"
+        style="@style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_weight="0.09" />
+</LinearLayout>
